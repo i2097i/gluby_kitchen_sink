@@ -1,0 +1,15 @@
+# Search paths
+$: << 'src/gluby/'
+
+# Dependencies
+require 'fileutils'
+require 'gtk3'
+
+# Include all auto-generated gluby helpers - do not remove
+require 'gluby_includes'
+
+# User Defined - Require any custom files here
+# ...
+
+# Application
+require 'application'
